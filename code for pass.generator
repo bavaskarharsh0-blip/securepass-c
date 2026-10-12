@@ -1,0 +1,19 @@
+include <stdio.h>
+
+int main() {
+    int birthYear, currentYear, age;
+
+    printf("=== AGE CALCULATOR ===\n");
+
+    printf("Enter your birth year: ");
+    scanf("%d", &birthYear);
+
+    printf("Enter current year: ");
+    scanf("%d", &currentYear);
+
+    age = currentYear - birthYear;
+
+    printf("Your age is: %d years\n", age);
+
+    return 0;
+}
